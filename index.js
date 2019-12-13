@@ -35,6 +35,6 @@ function iLoveTheBeatles(Number){
   do { 
     store[i] = ("I love the Beatles!");
     i++;
-      } while (Number < 15);
+      } while (i < (15 - Number));
   return store;
   }
